@@ -1,0 +1,72 @@
+{
+  "quem_somos_nav": "QUEM SOMOS",
+  "servicos_nav": "SERVIÇOS",
+  "contacto_nav": "CONTACTO",
+  "sustentabilidade_nav": "SUSTENTABILIDADE",
+  "entre_em_contacto_btn_nav": "ENTRE EM CONTACTO",
+  "header_title": "EXTRACTING VALUE",
+  "header_description": "SOMOS ESPECIALISTAS EM TRANSFORMAR DESAFIOS COMPLEXOS EM OPORTUNIDADES DE CRESCIMENTO E INOVAÇÃO",
+
+  "hero_title": "Nossa Filosofia",
+  "hero_description": "Acreditamos que o verdadeiro valor está na capacidade de transformar ideias em realidade. Guiados pela excelência e pela inovação, trabalhamos lado a lado com os nossos clientes para superar desafios, criar oportunidades e promover um impacto positivo nas comunidades onde actuamos. A nossa abordagem é baseada na colaboração, na transparência e num compromisso inabalável com a sustentabilidade.",
+
+  "about_quem_somos_subtitle": "QUEM SOMOS",
+  "about_title": "Fundada com a visão de colaborar com as mudanças no sector de energia e recursos naturais",
+  "about_description_part1": "A Tracti consolidou-se como uma referência em soluções integradas. Entregar resultados que vão além das expectativas, combinando conhecimento técnico, visão estratégica e um profundo entendimento das dinâmicas de mercado.",
+  "about_description_part2": "Ao longo dos anos, evoluímos de uma empresa focada em consultoria especializada para um parceiro multifuncional, oferecendo um portfólio completo que abrange desde a gestão de projectos até soluções tecnológicas de ponta. A nossa expansão para Angola marca um capítulo estratégico no nosso crescimento, reforçando o nosso compromisso com o desenvolvimento local e global.",
+  "saiba_mais": "SAIBA MAIS",
+
+  "qmsomos_quem_somos_subtitle": "QUEM SOMOS",
+  "qmsomos_title": "Diversificação e Visão Estratégica",
+  "qmsomos_description": "Além do sector de energia, actuamos em áreas como tecnologia, logística e infraestruturas, sempre com o objectivo de oferecer soluções que gerem valor a longo prazo. A nossa presença em Angola reflecte não apenas a nossa capacidade de adaptação, mas também o nosso compromisso com o desenvolvimento económico e social da região.",
+
+  "contact_subtitle": "CONTATO",
+  "contact_title": "COMEÇE HOJE A TRATAR DE SOLUÇÕES EFICIENTES",
+  "contact_description": "Sua mensagem é importante para nós. Entre em contato e juntos, daremos início a transformação da sua empresa",
+  "contact_form_name": "Nome",
+  "contact_form_contact": "Contato",
+  "contact_form_message": "Breve descrição",
+  "contact_form_send_btn": "ENVIAR",
+  "entre_em_contacto": "ENTRE EM CONTACTO",
+
+  "services_subtitle": "SERVIÇOS",
+  "services_description": "A Tracti é reconhecida pela sua capacidade de fornecer soluções personalizadas e de alto impacto para os desafios mais complexos dos mais diversos sectores",
+  "service_eng_proj_title": "ENGENHARIA E GESTÃO DE PROJETOS",
+  "service_eng_proj_desc1": "Projetos EPCI (Engenharia, Procura, Construção e Instalação);",
+  "service_eng_proj_desc2": "Serviços de engenharia para infraestruturas energéticas;",
+  "service_eng_proj_desc3": "Inspeções técnicas com drones e tecnologias avançadas;",
+
+  "service_suporte_mar_title": "SERVIÇOS INTEGRADOS DE SUPORTE MARÍTIMO",
+  "service_suporte_mar_desc1": "Fornecemos barcaças de acomodação offshore;",
+  "service_suporte_mar_desc2": "AHTS; Sufers; PSVs; Cargo Barges, movimento de passageiros offshore;",
+
+  "service_sustentabilidade_title": "SUSTENTABILIDADE E EFICIÊNCIA OPERACIONAL",
+  "service_sustentabilidade_desc1": "Implementação de práticas sustentáveis e tecnologias inovadoras;",
+  "service_sustentabilidade_desc2": "Redução de emissões de carbono e impacto ambiental;",
+  "service_sustentabilidade_desc3": "Gestão de proteção catódica e revestimentos",
+
+  "service_consultoria_title": "CONSULTORIA ESTRATÉGICA",
+  "service_consultoria_desc1": "Análises de mercado e identificação de oportunidades;",
+  "service_consultoria_desc2": "Desenvolvimento de planos estratégicos personalizados;",
+  "service_consultoria_desc3": "Consultoria em tecnologia e inovação;",
+
+  "service_construcao_title": "SERVIÇOS INTEGRADOS DE CONSTRUÇÃO, INSTALAÇÃO, MANUTENÇÃO E REPARAÇÃO",
+  "service_construcao_desc1": "Serviços de revestimento e pintura - onshore e offshore;",
+  "service_construcao_desc2": "Serviços de limpeza de tanques;",
+  "service_construcao_desc3": "Serviços de Fabricação metalomecânica - onshore e offshore.",
+
+  "service_suporte_marinho_title": "SERVIÇOS INTEGRADOS DE SUPORTE MARINHO",
+  "service_suporte_marinho_desc1": "Fornecemos suporte especializado para operações marítimas costeiras;",
+  "service_suporte_marinho_desc2": "Serviços de dragagem e batimetria;",
+  "service_suporte_marinho_desc3": "Manutenção de infraestruturas portuárias.",
+
+  "sustentabilidade_subtitle": "SUSTENTABILIDADE",
+  "sustentabilidade_title": "compromisso com o futuro",
+  "sustentabilidade_description": "A sustentabilidade é um pilar fundamental da nossa operação. Investimos continuamente em práticas e tecnologias que promovem a eficiência operacional e minimizam o impacto ambiental. Acreditamos que o verdadeiro sucesso só é alcançado quando combinamos inovação, responsabilidade e um compromisso genuíno com as gerações futuras.",
+
+  "explore_footer": "EXPLORE",
+  "contactos_footer": "CONTACTOS",
+  "footer_email": "M.FERREIRA@TRACTI.CO",
+  "footer_phone": "244 999 999 999",
+  "footer_address": "ENDEREÇO XXXXXXXXXX LUANDA"
+}

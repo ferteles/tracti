@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: geist;
+    src: url(./assets/fonts/Geist-Light.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/InterTight-Regular.ttf);
+}

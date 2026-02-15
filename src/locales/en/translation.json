@@ -1,0 +1,72 @@
+{
+  "quem_somos_nav": "ABOUT US",
+  "servicos_nav": "SERVICES",
+  "contacto_nav": "CONTACT",
+  "sustentabilidade_nav": "SUSTAINABILITY",
+  "entre_em_contacto_btn_nav": "GET IN TOUCH",
+  "header_title": "EXTRACTING VALUE",
+  "header_description": "WE ARE SPECIALISTS IN TRANSFORMING COMPLEX CHALLENGES INTO OPPORTUNITIES FOR GROWTH AND INNOVATION",
+
+  "hero_title": "Our Philosophy",
+  "hero_description": "We believe that true value lies in the ability to transform ideas into reality. Guided by excellence and innovation, we work alongside our clients to overcome challenges, create opportunities, and promote a positive impact in the communities where we operate. Our approach is based on collaboration, transparency, and an unwavering commitment to sustainability.",
+
+  "about_quem_somos_subtitle": "ABOUT US",
+  "about_title": "Founded with the vision to collaborate with changes in the energy and natural resources sector",
+  "about_description_part1": "Tracti has consolidated itself as a reference in integrated solutions. Delivering results that exceed expectations, combining technical knowledge, strategic vision, and a deep understanding of market dynamics.",
+  "about_description_part2": "Over the years, we have evolved from a company focused on specialized consulting to a multifunctional partner, offering a complete portfolio ranging from project management to cutting-edge technological solutions. Our expansion into Angola marks a strategic chapter in our growth, reinforcing our commitment to local and global development.",
+  "saiba_mais": "READ MORE",
+
+  "qmsomos_quem_somos_subtitle": "ABOUT US",
+  "qmsomos_title": "Diversification and Strategic Vision",
+  "qmsomos_description": "Beyond the energy sector, we operate in areas such as technology, logistics, and infrastructure, always aiming to offer solutions that generate long-term value. Our presence in Angola reflects not only our adaptability, but also our commitment to the economic and social development of the region.",
+
+  "contact_subtitle": "CONTACT",
+  "contact_title": "START TODAY TO WORK ON EFFICIENT SOLUTIONS",
+  "contact_description": "Your message is important to us. Get in touch and together, we will start transforming your company",
+  "contact_form_name": "Name",
+  "contact_form_contact": "Contact",
+  "contact_form_message": "Brief description",
+  "contact_form_send_btn": "SEND",
+  "entre_em_contacto": "GET IN TOUCH",
+
+  "services_subtitle": "SERVICES",
+  "services_description": "Tracti is recognized for its ability to provide personalized and high-impact solutions for the most complex challenges across various sectors",
+  "service_eng_proj_title": "ENGINEERING AND PROJECT MANAGEMENT",
+  "service_eng_proj_desc1": "EPCI Projects (Engineering, Procurement, Construction, and Installation);",
+  "service_eng_proj_desc2": "Engineering services for energy infrastructures;",
+  "service_eng_proj_desc3": "Technical inspections with drones and advanced technologies;",
+
+  "service_suporte_mar_title": "INTEGRATED MARINE SUPPORT SERVICES",
+  "service_suporte_mar_desc1": "We provide offshore accommodation barges;",
+  "service_suporte_mar_desc2": "AHTS; Sufers; PSVs; Cargo Barges, offshore passenger movement;",
+
+  "service_sustentabilidade_title": "SUSTAINABILITY AND OPERATIONAL EFFICIENCY",
+  "service_sustentabilidade_desc1": "Implementation of sustainable practices and innovative technologies;",
+  "service_sustentabilidade_desc2": "Reduction of carbon emissions and environmental impact;",
+  "service_sustentabilidade_desc3": "Cathodic protection and coating management",
+
+  "service_consultoria_title": "STRATEGIC CONSULTING",
+  "service_consultoria_desc1": "Market analysis and identification of opportunities;",
+  "service_consultoria_desc2": "Development of personalized strategic plans;",
+  "service_consultoria_desc3": "Consulting in technology and innovation;",
+
+  "service_construcao_title": "INTEGRATED CONSTRUCTION, INSTALLATION, MAINTENANCE, AND REPAIR SERVICES",
+  "service_construcao_desc1": "Coating and painting services - onshore and offshore;",
+  "service_construcao_desc2": "Tank cleaning services;",
+  "service_construcao_desc3": "Metalworking fabrication services - onshore and offshore.",
+
+  "service_suporte_marinho_title": "INTEGRATED MARINE SUPPORT SERVICES",
+  "service_suporte_marinho_desc1": "We provide specialized support for coastal marine operations;",
+  "service_suporte_marinho_desc2": "Dredging and bathymetry services;",
+  "service_suporte_marinho_desc3": "Maintenance of port infrastructures.",
+
+  "sustentabilidade_subtitle": "SUSTAINABILITY",
+  "sustentabilidade_title": "commitment to the future",
+  "sustentabilidade_description": "Sustainability is a fundamental pillar of our operation. We continuously invest in practices and technologies that promote operational efficiency and minimize environmental impact. We believe that true success is only achieved when we combine innovation, responsibility, and a genuine commitment to future generations.",
+
+  "explore_footer": "EXPLORE",
+  "contactos_footer": "CONTACTS",
+  "footer_email": "YOUR.EMAIL@TRACTI.CO",
+  "footer_phone": "244 999 999 999",
+  "footer_address": "ADDRESS XXXXXXXXXX LUANDA"
+}
