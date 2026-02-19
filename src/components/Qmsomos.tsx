@@ -9,7 +9,7 @@ function Qmsomos() {
   return (
     <div className="flex flex-col md:flex-row min-h-screen bg-[#F3F3F3] relative overflow-hidden">
       <div className="flex flex-col w-full md:w-2/5 p-4 md:p-12 justify-center order-2 md:order-1">
-        <h3 className="text-xl md:text-3xl font-extralight text-blue-300 mb-2 uppercase">
+        <h3 className="text-sm md:text-3xl font-extralight text-[#0973B2] mb-2 uppercase">
           {t("qmsomos_quem_somos_subtitle")}
         </h3>
         <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">

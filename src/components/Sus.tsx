@@ -27,7 +27,7 @@ function Sustentabilidade() {
       </div>
 
       <div className="flex flex-col w-full md:w-1/2 p-6 md:p-12 justify-center order-2 ">
-        <h3 className="text-sm md:text-3xl text-blue-500 tracking-wide mb-2">
+        <h3 className="text-sm md:text-3xl text-[#0973B2] tracking-wide mb-2">
           {t("sustentabilidade_subtitle")}
         </h3>
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-4">

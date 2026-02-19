@@ -24,9 +24,9 @@ function About() {
       {/* Texto da direita */}
       <div className="w-full md:w-1/2 px-6 py-10 flex flex-col justify-center ">
         <div className="max-w-xl mx-auto">
-          <h2 className="text-blue-500 text-sm uppercase tracking-wide mb-2">
+          <h3 className="text-[#0973B2] text-sm md:text-3xl uppercase tracking-wide mb-2">
             {t("about_quem_somos_subtitle")}
-          </h2>
+          </h3>
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
             {t("about_title")}
           </h1>

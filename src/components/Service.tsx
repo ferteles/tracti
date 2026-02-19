@@ -113,13 +113,13 @@ function Service() {
             <h3 className="text-[#43BAFF] text-sm md:text-3xl uppercase font-bold mb-2">
               {t("services_subtitle")}
             </h3>
-            <p className="text-white text-3xl md:text-5xl leading-relaxed">
+            <h2 className="text-white text-3xl md:text-5xl leading-relaxed uppercase">
               {t("services_description")}
-            </p>
+            </h2>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 text-white w-full">
+        <div className="grid grid-cols-1 gap-8 text-white w-full mt-10">
           {serviceItemsData.map((service, index) => (
             <div
               key={service.id}

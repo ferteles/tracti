@@ -11,7 +11,7 @@ const ContactSection: React.FC = () => {
       id="contacto"
     >
       <div className="flex flex-col w-full md:w-1/2 text-center md:text-left mb-12 md:mb-0 md:pr-12">
-        <h3 className="text-sm md:text-base font-bold uppercase text-blue-600 mb-2">
+        <h3 className="text-sm md:text-3xl font-bold uppercase text-[#0973B2] mb-2">
           {t("contact_subtitle")}
         </h3>
         <h2 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight mb-6">
