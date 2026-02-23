@@ -4,7 +4,12 @@ import { useTranslation } from "react-i18next"; // Importe useTranslation
 import srvgd from "../assets/srvgd.jpg";
 import bck from "../assets/bgservice.jpg";
 import Sbms from "./Sbms";
-import img from "../assets/imgsrvc.jpg";
+import imgLogistica from "../assets/imgsrvc.jpg";
+import imgEngProj from "../assets/imgdir.jpg";
+import imgConstrucao from "../assets/imgesq.jpg";
+import imgSuporteMar from "../assets/srvgd.jpg";
+import imgConsultoria from "../assets/tree.jpg";
+import imgSustentabilidade from "../assets/bgservice.jpg";
 import Entre from "./entctt";
 
 function Service() {
@@ -21,46 +26,29 @@ function Service() {
   // Os dados do serviço agora dependem da função t()
   const serviceItemsData = [
     {
+      id: "logistica",
+      title: t("service_logistica_title"),
+      description: [
+        t("service_logistica_desc1"),
+        t("service_logistica_desc2"),
+        t("service_logistica_desc3"),
+      ],
+      imageToShow: imgLogistica,
+      additionalContentComponent: <Entre isWhite={true} />,
+    },
+    {
       id: "engproj",
       title: t("service_eng_proj_title"),
       description: [
         t("service_eng_proj_desc1"),
         t("service_eng_proj_desc2"),
         t("service_eng_proj_desc3"),
+        t("service_eng_proj_desc4"),
+        t("service_eng_proj_desc5"),
+        t("service_eng_proj_desc6"),
+        t("service_eng_proj_desc7"),
       ],
-      imageToShow: img,
-      additionalContentComponent: <Entre isWhite={true} />,
-    },
-    {
-      id: "suportemar",
-      title: t("service_suporte_mar_title"),
-      description: [
-        t("service_suporte_mar_desc1"),
-        t("service_suporte_mar_desc2"),
-      ],
-      imageToShow: null,
-      additionalContentComponent: <Entre isWhite={true} />,
-    },
-    {
-      id: "sustentabilidade_service", // Renomeei para evitar conflito com id='sustentabilidade' da seção principal
-      title: t("service_sustentabilidade_title"),
-      description: [
-        t("service_sustentabilidade_desc1"),
-        t("service_sustentabilidade_desc2"),
-        t("service_sustentabilidade_desc3"),
-      ],
-      imageToShow: null,
-      additionalContentComponent: <Entre isWhite={true} />,
-    },
-    {
-      id: "consultoria",
-      title: t("service_consultoria_title"),
-      description: [
-        t("service_consultoria_desc1"),
-        t("service_consultoria_desc2"),
-        t("service_consultoria_desc3"),
-      ],
-      imageToShow: null,
+      imageToShow: imgEngProj,
       additionalContentComponent: <Entre isWhite={true} />,
     },
     {
@@ -71,18 +59,40 @@ function Service() {
         t("service_construcao_desc2"),
         t("service_construcao_desc3"),
       ],
-      imageToShow: null,
+      imageToShow: imgConstrucao,
       additionalContentComponent: <Entre isWhite={true} />,
     },
     {
-      id: "suportemarinho",
-      title: t("service_suporte_marinho_title"),
+      id: "suportemar",
+      title: t("service_suporte_mar_title"),
       description: [
-        t("service_suporte_marinho_desc1"),
-        t("service_suporte_marinho_desc2"),
-        t("service_suporte_marinho_desc3"),
+        t("service_suporte_mar_desc1"),
+        t("service_suporte_mar_desc2"),
+        t("service_suporte_mar_desc3"),
+        t("service_suporte_mar_desc4"),
       ],
-      imageToShow: null,
+      imageToShow: imgSuporteMar,
+      additionalContentComponent: <Entre isWhite={true} />,
+    },
+    {
+      id: "consultoria",
+      title: t("service_consultoria_title"),
+      description: [
+        t("service_consultoria_desc1"),
+        t("service_consultoria_desc2"),
+        t("service_consultoria_desc3"),
+      ],
+      imageToShow: imgConsultoria,
+      additionalContentComponent: <Entre isWhite={true} />,
+    },
+    {
+      id: "sustentabilidade_service",
+      title: t("service_sustentabilidade_title"),
+      description: [
+        t("service_sustentabilidade_desc1"),
+        t("service_sustentabilidade_desc2"),
+      ],
+      imageToShow: imgSustentabilidade,
       additionalContentComponent: <Entre isWhite={true} />,
     },
   ];
@@ -161,9 +171,9 @@ function Service() {
 
                     {/* Descrição */}
                     <div className={service.imageToShow ? "w-full md:w-3/5" : "w-full"}>
-                      <ul className="list-none space-y-3 text-base leading-relaxed">
+                      <ul className="list-none text-base leading-relaxed columns-1 lg:columns-2 gap-x-8">
                         {service.description.map((item, idx) => (
-                          <li key={idx} className="text-white">
+                          <li key={idx} className="text-white mb-3 break-inside-avoid">
                             {item}
                           </li>
                         ))}
