@@ -27,7 +27,7 @@ const Sbms: React.FC<SbmsProps> = ({
     }
   };
 
-  const rotationClass = isRotated ? "rotate-180" : "rotate-0";
+  const rotationClass = isRotated ? "rotate-90" : "rotate-0";
 
   const arrowSvgContent = (
     <img

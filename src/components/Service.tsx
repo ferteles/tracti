@@ -4,8 +4,8 @@ import { useTranslation } from "react-i18next"; // Importe useTranslation
 import srvgd from "../assets/srvgd.jpg";
 import bck from "../assets/bgservice.jpg";
 import Sbms from "./Sbms";
-import imgLogistica from "../assets/imgsrvc.jpg";
-import imgEngProj from "../assets/imgdir.jpg";
+import imgLogistica from "../img-srv/logistica.jpg";
+import imgEngProj from "../img-srv/engenharia.jpg";
 import imgConstrucao from "../assets/imgesq.jpg";
 import imgSuporteMar from "../assets/srvgd.jpg";
 import imgConsultoria from "../assets/tree.jpg";
@@ -164,29 +164,28 @@ function Service() {
                         <img
                           src={service.imageToShow}
                           alt={`Detalhes de ${service.title}`}
-                          className="w-full h-auto object-cover rounded-lg shadow-md"
+                          className="w-full aspect-video md:aspect-[4/3] object-cover rounded-lg shadow-md"
                         />
                       </div>
                     )}
 
                     {/* Descrição */}
                     <div className={service.imageToShow ? "w-full md:w-3/5" : "w-full"}>
-                      <ul className="list-none text-base leading-relaxed columns-1 lg:columns-2 gap-x-8">
+                      <ul className={`list-none text-base leading-relaxed columns-1 ${service.id === 'logistica' ? '' : 'lg:columns-2'} gap-x-8`}>
                         {service.description.map((item, idx) => (
                           <li key={idx} className="text-white mb-3 break-inside-avoid">
                             {item}
                           </li>
                         ))}
                       </ul>
+                      {/* Botão Entre em Contato */}
+                      {service.additionalContentComponent && (
+                        <div className="mb-6">
+                          {service.additionalContentComponent}
+                        </div>
+                      )}
                     </div>
                   </div>
-
-                  {/* Botão Entre em Contato */}
-                  {service.additionalContentComponent && (
-                    <div className="mb-6">
-                      {service.additionalContentComponent}
-                    </div>
-                  )}
                 </div>
               )}
             </div>
