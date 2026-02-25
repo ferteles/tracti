@@ -6,10 +6,10 @@ import bck from "../assets/bgservice.jpg";
 import Sbms from "./Sbms";
 import imgLogistica from "../img-srv/logistica.jpg";
 import imgEngProj from "../img-srv/engenharia.jpg";
-import imgConstrucao from "../assets/imgesq.jpg";
-import imgSuporteMar from "../assets/srvgd.jpg";
-import imgConsultoria from "../assets/tree.jpg";
-import imgSustentabilidade from "../assets/bgservice.jpg";
+import imgConstrucao from "../img-srv/integrados.jpg";
+import imgSuporteMar from "../img-srv/suporte-maritimo.jpg";
+import imgConsultoria from "../img-srv/consultoria.jpg";
+import imgSustentabilidade from "../img-srv/sustentabilidade.jpg";
 import Entre from "./entctt";
 
 function Service() {
@@ -171,7 +171,7 @@ function Service() {
 
                     {/* Descrição */}
                     <div className={service.imageToShow ? "w-full md:w-3/5" : "w-full"}>
-                      <ul className={`list-none text-base leading-relaxed columns-1 ${service.id === 'logistica' ? '' : 'lg:columns-2'} gap-x-8`}>
+                      <ul className="list-none text-base leading-relaxed columns-1 gap-x-8">
                         {service.description.map((item, idx) => (
                           <li key={idx} className="text-white mb-3 break-inside-avoid">
                             {item}
