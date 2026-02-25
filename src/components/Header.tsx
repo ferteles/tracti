@@ -61,9 +61,8 @@ const Header: React.FC = () => {
 
           {/* Navegação Principal */}
           <nav
-            className={`${
-              isMenuOpen ? "flex" : "hidden"
-            } md:flex flex-col md:flex-row items-end space-y-4 md:space-y-0 md:space-x-6 text-white text-sm md:text-base font-semibold absolute md:static top-full left-0 w-full md:w-auto bg-transparent md:bg-transparent p-5 md:p-0 rounded-b-lg md:rounded-none shadow-lg md:shadow-none`}
+            className={`${isMenuOpen ? "flex" : "hidden"
+              } md:flex flex-col md:flex-row items-end space-y-4 md:space-y-0 md:space-x-6 text-white text-sm md:text-base font-semibold absolute md:static top-full left-0 w-full md:w-auto bg-transparent md:bg-transparent p-5 md:p-0 rounded-b-lg md:rounded-none shadow-lg md:shadow-none`}
           >
             <a
               href="#about"
@@ -112,7 +111,7 @@ const Header: React.FC = () => {
       </div>
 
       {/* Conteúdo "EXTRACTING VALUE" */}
-      <div className="absolute bottom-0 left-0 z-10 w-full flex flex-col justify-start items-start pb-[15vh] px-16 md:px-36 lg:px-124 top-90 lg:top-160">
+      <div className="absolute bottom-0 left-0 z-10 w-full flex flex-col justify-start items-start pb-[15vh] px-16 md:px-36 lg:px-124">
         <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight">
           {t("header_title")}
         </h1>

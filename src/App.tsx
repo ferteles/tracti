@@ -6,7 +6,6 @@ import Qmsomos from "./components/Qmsomos";
 import Sustentabilidade from "./components/Sus";
 import Contacto from "./components/Contacto";
 import Service from "./components/Service";
-import bck from "./assets/imgfndqm.svg";
 
 function App() {
   return (
@@ -14,11 +13,6 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <img
-        src={bck}
-        alt=""
-        className="absolute w-screen h-screen z-5 top-300 lg:top-600"
-      />
       <Qmsomos />
       <Service />
       <Sustentabilidade />

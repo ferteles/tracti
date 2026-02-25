@@ -12,13 +12,13 @@ function About() {
       id="about"
     >
       {/* Imagem da esquerda */}
-      <div className="w-full md:w-3/5 h-screen md:h-auto flex flex-row">
+      <div className="relative w-full md:w-3/5 h-[50vh] min-h-[400px] md:h-auto flex flex-row">
         <img
           src={img1}
           alt="Homem com uniforme laranja em navio"
-          className="relative w-9/10 h-full object-cover left-1/20  z-10 bg-transparent"
+          className="relative w-[90%] h-full object-cover left-[5%] z-10 bg-transparent"
         />
-        <div className="absolute w-2/5 h-180 bg-[#500203] top-200 lg:top-320 z-0 md:h-270 lg:h-360"></div>
+        <div className="absolute w-2/5 h-[180px] md:h-[270px] lg:h-[360px] bg-[#500203] top-1/2 -translate-y-1/2 z-0"></div>
       </div>
 
       {/* Texto da direita */}

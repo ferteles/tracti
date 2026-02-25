@@ -16,7 +16,7 @@ function Footer() {
         <img
           src={img}
           alt=""
-          className="absolute w-screen h-screen z-0 items-center object-cover"
+          className="absolute w-full h-full z-0 items-center object-cover"
         />
       </div>
 

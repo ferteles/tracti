@@ -1,6 +1,6 @@
-// src/components/Qmsomos.tsx
 import { useTranslation } from "react-i18next";
 import img2 from "../assets/imgdir.jpg";
+import bck from "../assets/imgfndqm.svg";
 import Arrow from "./entctt";
 
 function Qmsomos() {
@@ -8,7 +8,13 @@ function Qmsomos() {
 
   return (
     <div className="flex flex-col md:flex-row min-h-screen bg-[#F3F3F3] relative overflow-hidden">
-      <div className="flex flex-col w-full md:w-2/5 p-4 md:p-12 justify-center order-2 md:order-1">
+      {/* Background SVG - contido no componente para não quebrar a página */}
+      <img
+        src={bck}
+        alt=""
+        className="absolute w-full h-full object-cover z-0 opacity-50"
+      />
+      <div className="flex flex-col w-full md:w-2/5 p-4 md:p-12 justify-center order-2 md:order-1 relative z-10">
         <h3 className="text-sm md:text-3xl font-extralight text-[#0973B2] mb-2 uppercase">
           {t("qmsomos_quem_somos_subtitle")}
         </h3>
