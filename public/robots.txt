@@ -1,0 +1,8 @@
+# Arquivo padrão robots.txt para controle de bots de busca
+# Permite acesso a todos os bots e páginas do site
+
+User-agent: *
+Allow: /
+
+# Descomente a linha abaixo e insira o link correto quando o site for pro ar
+# Sitemap: https://www.seusite.com.br/sitemap.xml
