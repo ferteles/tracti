@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next"; // Importe useTranslation
 import logo from "../assets/logo.svg";
-import bck from "../assets/bckgnd.png";
+import bck from "../assets/hero.gif";
 import menu from "../assets/menu.svg";
 
 const Header: React.FC = () => {
