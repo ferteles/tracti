@@ -12,7 +12,7 @@ function Qmsomos() {
       <img
         src={bck}
         alt=""
-        className="absolute w-full h-full object-cover z-0 opacity-50"
+        className="absolute w-full h-full object-cover z-0 opacity-10"
       />
       <div className="flex flex-col w-full md:w-2/5 p-4 md:p-12 justify-center order-2 md:order-1 relative z-10">
         <h3 className="text-sm md:text-3xl font-extralight text-[#0973B2] mb-2 uppercase">
