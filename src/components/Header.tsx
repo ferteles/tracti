@@ -111,13 +111,15 @@ const Header: React.FC = () => {
       </div>
 
       {/* Conteúdo "EXTRACTING VALUE" */}
-      <div className="absolute bottom-0 left-0 z-10 w-full flex flex-col justify-start items-start pb-[15vh] px-16 md:px-36 lg:px-124">
-        <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight">
-          {t("header_title")}
-        </h1>
-        <p className="text-white text-base md:text-lg lg:text-xl max-w-xl">
-          {t("header_description")}
-        </p>
+      <div className="absolute bottom-0 left-0 z-10 w-full flex flex-col justify-start items-start pb-[25vh] md:pb-[15vh] px-8 md:px-0 md:pl-[25%] md:pr-8">
+        <div className="w-min">
+          <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-bold mb-4 leading-tight whitespace-nowrap">
+            {t("header_title")}
+          </h1>
+          <p className="text-white text-base md:text-lg lg:text-xl">
+            {t("header_description")}
+          </p>
+        </div>
       </div>
     </header>
   );

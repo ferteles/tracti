@@ -14,17 +14,19 @@ function Qmsomos() {
         alt=""
         className="absolute w-full h-full object-cover z-0 opacity-10"
       />
-      <div className="flex flex-col w-full md:w-2/5 p-4 md:p-12 justify-center order-2 md:order-1 relative z-10">
-        <h3 className="text-sm md:text-3xl font-extralight text-[#0973B2] mb-2 uppercase">
-          {t("qmsomos_quem_somos_subtitle")}
-        </h3>
-        <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">
-          {t("qmsomos_title")}
-        </h2>
-        <p className="text-base md:text-xl text-gray-700 leading-relaxed mb-8">
-          {t("qmsomos_description")}
-        </p>
-        <Arrow />
+      <div className="flex flex-col flex-1 p-4 md:p-12 justify-center order-2 md:order-1 relative z-10 w-full md:w-auto">
+        <div className="w-min">
+          <h3 className="text-sm md:text-3xl font-extralight text-[#0973B2] mb-2 uppercase whitespace-nowrap">
+            {t("qmsomos_quem_somos_subtitle")}
+          </h3>
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 whitespace-nowrap">
+            {t("qmsomos_title")}
+          </h2>
+          <p className="text-base md:text-xl text-gray-700 leading-relaxed mb-8">
+            {t("qmsomos_description")}
+          </p>
+          <Arrow />
+        </div>
       </div>
       <div className="relative flex flex-col w-full md:w-3/5 items-center justify-center p-4 md:p-8 order-1 md:order-2">
         <img
